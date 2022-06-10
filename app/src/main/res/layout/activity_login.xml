@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/custom_gradient"
+    tools:context=".LoginActivity">
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/paws"
+        app:cardBackgroundColor="@android:color/transparent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="431dp"
+            android:background="@drawable/paws"
+            android:backgroundTint="#654CFFF1"
+            android:backgroundTintMode="src_atop"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:paddingLeft="14dp"
+            android:paddingTop="20dp"
+            android:paddingRight="14dp"
+            android:paddingBottom="20dp"
+            tools:ignore="ExtraText"
+            tools:visibility="visible">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="133dp"
+                android:layout_height="140dp"
+                android:layout_marginTop="29dp"
+                android:background="@drawable/logo_petz"
+                android:backgroundTint="#231212"
+                android:backgroundTintMode="src_atop" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:text="Ingrese a su cuenta "
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/correoL"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FFFFFF"
+                android:backgroundTint="#FFFFFF"
+                android:ems="10"
+                android:hint="Correo"
+                android:inputType="textEmailAddress"
+                android:minHeight="48dp"
+                android:paddingLeft="18dp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="21dp" />
+
+            <EditText
+                android:id="@+id/contraseñaL"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FFFFFF"
+                android:ems="10"
+                android:hint="Contraseña"
+                android:inputType="textPassword"
+                android:minHeight="48dp"
+                android:paddingLeft="18dp" />
+
+            <Button
+                android:id="@+id/btnIngresarL"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="22dp"
+                android:backgroundTint="#8BE3A4"
+                android:text="Ingresar"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <LinearLayout
+        android:layout_width="428dp"
+        android:layout_height="172dp"
+        android:background="#FFFFFF"
+        android:orientation="horizontal"
+        android:paddingTop="30dp"
+        android:textAlignment="center"
+        app:flow_horizontalAlign="center"
+        app:flow_verticalAlign="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <Space
+            android:layout_width="55dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <LinearLayout
+            android:layout_width="157dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:padding="20dp"
+            android:textAlignment="center">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="171dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="¿Aún no estás registrado?"
+                android:textAlignment="center"
+                android:textColor="#048781"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btnRegresarR"
+                android:layout_width="170dp"
+                android:layout_height="wrap_content"
+                android:text="Registrar"
+                android:backgroundTint="#048781"
+                android:textAlignment="center"
+               />
+        </LinearLayout>
+
+        <Space
+            android:layout_width="55dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "709846518116",
+    "project_id": "loginpetzzz",
+    "storage_bucket": "loginpetzzz.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:709846518116:android:c85f3e4539fad4827d5271",
+        "android_client_info": {
+          "package_name": "com.syrell.loginpetzzz"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "709846518116-9b5k85qaktj0vlo82s4mkpk9nn40olaq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDlvemF872mTjapvUHNTuwH6Xm2_NfBqbU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "709846518116-9b5k85qaktj0vlo82s4mkpk9nn40olaq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
